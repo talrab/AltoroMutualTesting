@@ -14,7 +14,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
  */
 public class DriverSettings {
     private String chromeWebDriverpath = "d:\\Tal - Work Related\\myWorkspace\\chromedriver.exe";
-    private WebDriver driver ;
+    private  WebDriver driver ;
     private String driverType = "";
 
 
@@ -26,7 +26,7 @@ public class DriverSettings {
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
-        public WebDriver getDriver (){
+        public  WebDriver getDriver (){
             return driver;
         }
 

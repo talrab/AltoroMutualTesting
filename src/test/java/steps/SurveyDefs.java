@@ -16,8 +16,8 @@ import static org.junit.Assert.assertEquals;
  */
 public class SurveyDefs {
     private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
-    //private WebDriver driver = driverSettings.runWebDriver();
     private WebDriver driver = driverSettings.getDriver();
+
 
 
     @Given("^I am in the home page$")

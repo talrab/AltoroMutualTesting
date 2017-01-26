@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8081541064,
+              "duration": 7415262436,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 740477001,
+              "duration": 938488308,
               "status": "passed"
             },
             "line": 9,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 15587480776,
+              "duration": 1703052526,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15209692861,
+              "duration": 6627688884,
               "status": "passed"
             },
             "line": 8,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 26562,
+              "duration": 33107,
               "status": "passed"
             },
             "line": 9,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 49284267,
+              "duration": 52968316,
               "status": "passed"
             },
             "line": 10,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 56951093,
+              "duration": 68170313,
               "status": "passed"
             },
             "line": 11,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 1393590446,
+              "duration": 1547628369,
               "status": "passed"
             },
             "line": 12,
@@ -178,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9995504074,
+              "duration": 6695762573,
               "status": "passed"
             },
             "line": 8,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 4276169358,
+              "duration": 14390123513,
               "status": "passed"
             },
             "line": 9,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1378966271,
+              "duration": 1436300399,
               "status": "passed"
             },
             "line": 10,
@@ -246,7 +246,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7193603150,
+              "duration": 7257529300,
               "status": "passed"
             },
             "line": 8,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 610222949,
+              "duration": 589345128,
               "status": "passed"
             },
             "line": 9,
@@ -270,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 410516672,
+              "duration": 359181733,
               "status": "passed"
             },
             "line": 10,
@@ -296,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 1778851555,
+              "duration": 1722649590,
               "status": "passed"
             },
             "line": 11,
@@ -328,5 +328,43 @@
     "id": "transfer-funds",
     "keyword": "Feature",
     "uri": "TransferFunds.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sharing Data Scenario 1",
+        "description": "",
+        "id": "sharing-data;sharing-data-scenario-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I am on the page \"http://www.softpost.org\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I verify that title of the web page contains \"free tutorial\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sharing data",
+    "description": "",
+    "id": "sharing-data",
+    "keyword": "Feature",
+    "uri": "aatest.feature"
   }
 ]
