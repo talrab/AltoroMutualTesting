@@ -19,18 +19,8 @@ import static org.junit.Assert.assertEquals;
  * Created by tal on 22/01/2017.
  */
 public class AccountHistoryDefs {
-    private DriverSettings driverSettings ;
-    private WebDriver driver = null;
-
-
-    @Before
-    public void setUp(){
-        driverSettings = new DriverSettings();
-        driverSettings.setDriverType(DriverType.CHROME.toString());
-        driverSettings.setDriverProperties();
-        driver = driverSettings.runWebDriver();
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-    }
+    private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
+    private WebDriver driver = driverSettings.runWebDriver();
 
 
     @Given("^I am signed in$")
@@ -66,12 +56,10 @@ public class AccountHistoryDefs {
     @Then("^the account history page header should display (\\d+)$")
     public void the_account_history_page_header_should_display(String arg1) throws Throwable {
         assertEquals(driver.findElement(By.id("_ctl0__ctl0_Content_Main_accountid")).getText(),arg1);
-
-
-    }
-
-    @After
-    public void tearDown(){
         driver.quit();
+
+
     }
+
+
 }

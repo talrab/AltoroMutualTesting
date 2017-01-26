@@ -3,56 +3,16 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 4279962736,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AdminUserOptionsDefs.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4032749545,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AccountHistoryDefs.setUp()"
-            }
-          }
-        ],
         "line": 6,
         "name": "Account number is displayed in the header",
         "description": "",
         "id": "test-the-account-history-page;account-number-is-displayed-in-the-header",
-        "after": [
-          {
-            "result": {
-              "duration": 1435615558,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AdminUserOptionsDefs.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1329727815,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AccountHistoryDefs.tearDown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3231422208,
+              "duration": 7962579374,
               "status": "passed"
             },
             "line": 8,
@@ -64,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 945504555,
+              "duration": 991786918,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 46968743,
+              "duration": 1514884215,
               "status": "passed"
             },
             "line": 10,
@@ -111,56 +71,16 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 3912455514,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AdminUserOptionsDefs.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3965540857,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AccountHistoryDefs.setUp()"
-            }
-          }
-        ],
         "line": 6,
         "name": "Admin menu exists",
         "description": "",
         "id": "test-that-the-admin-user-has-the-admin-menu-items-available;admin-menu-exists",
-        "after": [
-          {
-            "result": {
-              "duration": 1302237569,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AdminUserOptionsDefs.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1354512576,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AccountHistoryDefs.tearDown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4306182235,
+              "duration": 6746124722,
               "status": "passed"
             },
             "line": 8,
@@ -172,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 38495,
+              "duration": 42730,
               "status": "passed"
             },
             "line": 9,
@@ -184,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 57113545,
+              "duration": 48977455,
               "status": "passed"
             },
             "line": 10,
@@ -202,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 65844781,
+              "duration": 54285257,
               "status": "passed"
             },
             "line": 11,
@@ -220,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 57486570,
+              "duration": 1388208732,
               "status": "passed"
             },
             "line": 12,

@@ -24,18 +24,8 @@ import static org.junit.Assert.assertEquals;
  * Created by tal on 22/01/2017.
  */
 public class AdminUserOptionsDefs {
-    private DriverSettings driverSettings ;
-    private WebDriver driver = null;
-
-
-    @Before
-    public void setUp(){
-        driverSettings = new DriverSettings();
-        driverSettings.setDriverType(DriverType.CHROME.toString());
-        driverSettings.setDriverProperties();
-        driver = driverSettings.runWebDriver();
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-    }
+    private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
+    private WebDriver driver = driverSettings.runWebDriver();
 
 
     @Given("^I am signed in as an admin$")
@@ -75,10 +65,7 @@ public class AdminUserOptionsDefs {
     @Then("^(Edit Users) link exists$")
     public void edit_Users_link_exists(String arg1) throws Throwable {
         assertEquals(AdminWelcomePage.editUsersLink(driver).getText(),arg1);
+        driver.quit();
     }
 
-    @After
-    public void tearDown(){
-        driver.quit();
-   }
 }

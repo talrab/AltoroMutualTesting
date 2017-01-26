@@ -3,6 +3,7 @@ package steps;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,7 +21,8 @@ public class DriverSettings {
 
 
 
-    public DriverSettings() {
+    public DriverSettings(DriverType driverTypeEnum) {
+        driverType = driverTypeEnum.toString();
     }
 
     //need this method because I use two different machines where the chromdriver is placed in different locations.
@@ -47,6 +49,8 @@ public class DriverSettings {
     }
     public WebDriver runWebDriver (){
 
+        this.setDriverProperties();
+
         if (this.driverType == DriverType.CHROME.toString()) {
             driver = new ChromeDriver();
         }
@@ -59,9 +63,9 @@ public class DriverSettings {
         return driver;
     }
 
-    public void setDriverType(String driverType) {
-        this.driverType = driverType;
-    }
+//    public void setDriverType(String driverType) {
+//        this.driverType = driverType;
+//    }
 
 
 }

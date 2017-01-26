@@ -6,14 +6,6 @@ formatter.feature({
   "id": "test-the-account-history-page",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 4279962736,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 4032749545,
-  "status": "passed"
-});
 formatter.scenario({
   "line": 6,
   "name": "Account number is displayed in the header",
@@ -41,7 +33,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_am_signed_in()"
 });
 formatter.result({
-  "duration": 3231422208,
+  "duration": 7962579374,
   "status": "passed"
 });
 formatter.match({
@@ -54,7 +46,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_choose_account(String)"
 });
 formatter.result({
-  "duration": 945504555,
+  "duration": 991786918,
   "status": "passed"
 });
 formatter.match({
@@ -67,15 +59,7 @@ formatter.match({
   "location": "AccountHistoryDefs.the_account_history_page_header_should_display(String)"
 });
 formatter.result({
-  "duration": 46968743,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1435615558,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1329727815,
+  "duration": 1514884215,
   "status": "passed"
 });
 formatter.uri("AdminUserOptions.feature");
@@ -85,14 +69,6 @@ formatter.feature({
   "description": "\r\nFormula:",
   "id": "test-that-the-admin-user-has-the-admin-menu-items-available",
   "keyword": "Feature"
-});
-formatter.before({
-  "duration": 3912455514,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3965540857,
-  "status": "passed"
 });
 formatter.scenario({
   "line": 6,
@@ -131,14 +107,14 @@ formatter.match({
   "location": "AdminUserOptionsDefs.i_am_signed_in_as_an_admin()"
 });
 formatter.result({
-  "duration": 4306182235,
+  "duration": 6746124722,
   "status": "passed"
 });
 formatter.match({
   "location": "AdminUserOptionsDefs.i_look_at_my_menu_options()"
 });
 formatter.result({
-  "duration": 38495,
+  "duration": 42730,
   "status": "passed"
 });
 formatter.match({
@@ -151,7 +127,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.the_ADMINISTRATION_menu_title_exists(String)"
 });
 formatter.result({
-  "duration": 57113545,
+  "duration": 48977455,
   "status": "passed"
 });
 formatter.match({
@@ -164,7 +140,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.view_Application_Values_link_exists(String)"
 });
 formatter.result({
-  "duration": 65844781,
+  "duration": 54285257,
   "status": "passed"
 });
 formatter.match({
@@ -177,15 +153,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.edit_Users_link_exists(String)"
 });
 formatter.result({
-  "duration": 57486570,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1302237569,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1354512576,
+  "duration": 1388208732,
   "status": "passed"
 });
 });
