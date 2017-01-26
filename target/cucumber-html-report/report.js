@@ -33,7 +33,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_am_signed_in()"
 });
 formatter.result({
-  "duration": 8353156753,
+  "duration": 8081541064,
   "status": "passed"
 });
 formatter.match({
@@ -46,7 +46,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_choose_account(String)"
 });
 formatter.result({
-  "duration": 749014218,
+  "duration": 740477001,
   "status": "passed"
 });
 formatter.match({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "AccountHistoryDefs.the_account_history_page_header_should_display(String)"
 });
 formatter.result({
-  "duration": 1679773337,
+  "duration": 15587480776,
   "status": "passed"
 });
 formatter.uri("AdminUserOptions.feature");
@@ -107,14 +107,14 @@ formatter.match({
   "location": "AdminUserOptionsDefs.i_am_signed_in_as_an_admin()"
 });
 formatter.result({
-  "duration": 8084068315,
+  "duration": 15209692861,
   "status": "passed"
 });
 formatter.match({
   "location": "AdminUserOptionsDefs.i_look_at_my_menu_options()"
 });
 formatter.result({
-  "duration": 86616,
+  "duration": 26562,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.the_ADMINISTRATION_menu_title_exists(String)"
 });
 formatter.result({
-  "duration": 53556917,
+  "duration": 49284267,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.view_Application_Values_link_exists(String)"
 });
 formatter.result({
-  "duration": 60443048,
+  "duration": 56951093,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.edit_Users_link_exists(String)"
 });
 formatter.result({
-  "duration": 1403956215,
+  "duration": 1393590446,
   "status": "passed"
 });
 formatter.uri("Survey.feature");
@@ -191,7 +191,7 @@ formatter.match({
   "location": "SurveyDefs.i_am_in_the_home_page()"
 });
 formatter.result({
-  "duration": 9565644795,
+  "duration": 9995504074,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "SurveyDefs.i_go_threw_the_survey_all_to_the_end_and_enter_my_email_email_com_and_submit(String)"
 });
 formatter.result({
-  "duration": 19396766351,
+  "duration": 4276169358,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "SurveyDefs.the_email_email_com_is_presented_to_me(String)"
 });
 formatter.result({
-  "duration": 1381828436,
+  "duration": 1378966271,
   "status": "passed"
 });
 formatter.uri("TransferFunds.feature");
@@ -260,14 +260,14 @@ formatter.match({
   "location": "TransferFundsDefs.i_am_signed_in1()"
 });
 formatter.result({
-  "duration": 9386959158,
+  "duration": 7193603150,
   "status": "passed"
 });
 formatter.match({
   "location": "TransferFundsDefs.i_go_to_the_Transfer_Funds_link()"
 });
 formatter.result({
-  "duration": 846060627,
+  "duration": 610222949,
   "status": "passed"
 });
 formatter.match({
@@ -288,7 +288,7 @@ formatter.match({
   "location": "TransferFundsDefs.i_choose_to_transfer_$_from_the_account_to_the(String,String,String)"
 });
 formatter.result({
-  "duration": 339968857,
+  "duration": 410516672,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "TransferFundsDefs.i_get_a_message_saying_$_was_successfully_transferred_from_Account_into_Account_at_the_current_date(String,String,String)"
 });
 formatter.result({
-  "duration": 1712149856,
+  "duration": 1778851555,
   "status": "passed"
 });
 });

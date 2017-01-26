@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.DemoTestfireNet;
 import pageObjects.LoginPage;
 import pageObjects.WelcomePage;
-import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -20,7 +19,6 @@ import static org.junit.Assert.assertEquals;
  */
 public class AccountHistoryDefs {
     private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
-    //private WebDriver driver = driverSettings.runWebDriver();
     private WebDriver driver = driverSettings.getDriver();
 
 
