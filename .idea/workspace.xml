@@ -25,8 +25,8 @@
       <file leaf-file-name="AccountHistoryDefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/AccountHistoryDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,14 +34,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverSettings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurveyDefs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveyDefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminUserOptionsDefs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/AdminUserOptionsDefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/DriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="281">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferFundsDefs.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransferFundsDefs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/TransferFundsDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -110,8 +130,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/AdminUserOptions.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/AdminUserOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/AdminWelcomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/AdminUserOptionsDefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/AccountHistoryDefs.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Survey.feature" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/DemoTestfireNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SurveyWelcome.java" />
@@ -121,13 +139,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SurveyQuestion4.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SurveyQuestion5.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SurveyCompleteThanks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/SurveyDefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SurveyComplete.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/TransferFunds.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TransferFunds.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/TransferFundsDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/DriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/AccountHistoryDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SurveyDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/AdminUserOptionsDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/TransferFundsDefs.java" />
       </list>
     </option>
   </component>
@@ -650,12 +670,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukesTest - 2017.01.26 at 16h 02m 06s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunCukesTest - 2017.01.26 at 16h 07m 32s.xml">
-      <configuration name="RunCukesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunCukesTest - 2017.01.26 at 16h 16m 40s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
@@ -678,6 +692,12 @@
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RunCukesTest - 2017.01.26 at 17h 16m 14s.xml">
+      <configuration name="RunCukesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCukesTest - 2017.01.26 at 17h 21m 53s.xml">
+      <configuration name="RunCukesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCukesTest - 2017.01.26 at 17h 28m 40s.xml">
       <configuration name="RunCukesTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -781,8 +801,8 @@
         <state relative-caret-position="884">
           <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1012,14 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveyDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SurveyComplete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1032,14 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AdminUserOptionsDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1145,16 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AccountHistoryDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TransferFunds.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1171,22 +1165,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TransferFundsDefs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="281">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AccountHistoryDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SurveyDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DriverSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AdminUserOptionsDefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TransferFundsDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

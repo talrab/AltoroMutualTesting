@@ -20,7 +20,8 @@ import static org.junit.Assert.assertEquals;
  */
 public class AccountHistoryDefs {
     private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
-    private WebDriver driver = driverSettings.runWebDriver();
+    //private WebDriver driver = driverSettings.runWebDriver();
+    private WebDriver driver = driverSettings.getDriver();
 
 
     @Given("^I am signed in$")
