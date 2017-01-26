@@ -13,10 +13,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
  * Created by tal on 17/01/2017.
  */
 public class DriverSettings {
-    private String chromeWebDriverpath1 = "c:\\D\\Online Courses\\Selenium and continoues integration\\Tools\\chromedriver.exe";
-    private String chromeWebDriverpath2 = "d:\\Tal - Work Related\\myWorkspace\\chromedriver.exe";
-    private String activeChromeWebDriverPath = "";
-    private WebDriver driver = null;
+    private String chromeWebDriverpath = "d:\\Tal - Work Related\\myWorkspace\\chromedriver.exe";
+    private WebDriver driver ;
     private String driverType = "";
 
 
@@ -25,28 +23,15 @@ public class DriverSettings {
         driverType = driverTypeEnum.toString();
     }
 
-    //need this method because I use two different machines where the chromdriver is placed in different locations.
-    private String getActiveChromeWebDriverPath () {
-
-        File f = new File (chromeWebDriverpath1);
-        if (f.exists()) {
-            activeChromeWebDriverPath = chromeWebDriverpath1;
-        }
-        else{
-            activeChromeWebDriverPath = chromeWebDriverpath2;
-        }
-        return activeChromeWebDriverPath;
-    }
-
     public void setDriverProperties () {
-        String path = getActiveChromeWebDriverPath();
         if (this.driverType == DriverType.CHROME.toString()) {
-            System.setProperty("webdriver.chrome.driver", path);
+            System.setProperty("webdriver.chrome.driver", chromeWebDriverpath);
         }
         else if (this.driverType == DriverType.IE.toString()){
             System.setProperty("webdriver.ie.driver", "c:\\D\\Online Courses\\Selenium and continoues integration\\Tools\\IEDriverServer.exe");
         }
     }
+
     public WebDriver runWebDriver (){
 
         this.setDriverProperties();
@@ -62,10 +47,5 @@ public class DriverSettings {
 
         return driver;
     }
-
-//    public void setDriverType(String driverType) {
-//        this.driverType = driverType;
-//    }
-
 
 }

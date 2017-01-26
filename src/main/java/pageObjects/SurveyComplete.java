@@ -22,7 +22,6 @@ public class SurveyComplete {
     }
 
     public static WebElement submitButton(WebDriver driver){
-        //element = driver.findElement(By.name("Submit"));
         element = driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr[2]/td[2]/div/span/form/div/input[2]"));
         return element;
     }

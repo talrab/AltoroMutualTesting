@@ -32,6 +32,13 @@ public class WelcomePage {
         select.selectByVisibleText(account);
     }
 
+    public static WebElement transferFunds (WebDriver driver) {
+        element = driver.findElement(By.id("_ctl0__ctl0_Content_MenuHyperLink3"));
+        return element;
+    }
+
+
+
 
 
 
