@@ -46,7 +46,20 @@ public class SurveyDefs {
             assertEquals(SurveyCompleteThanks.reflectedEmail(driver).getText(),"email@email.com");
             //driver.quit();
         BrowserDriver.close();
+    }
 
+
+    @When("^I skip a step in the middle$")
+    public void i_skip_a_step_in_the_middle() throws Throwable {
+        SurveyWelcome.Yes(driver).click();
+        SurveyQuestion1.firstAnswer(driver).click();
+        driver.get("http://demo.testfire.net/survey_questions.aspx?step=d");
+    }
+
+    @Then("^a (Request Out of Order) appears$")
+    public void a_Request_Out_of_Order_appears(String arg1) throws Throwable {
+        assertEquals(arg1,SurveyOutOfOrder.message(driver).getText());
+        BrowserDriver.close();
     }
 
 

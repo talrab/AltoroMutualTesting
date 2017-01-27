@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8625800665,
+              "duration": 8154241565,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 984028857,
+              "duration": 758473409,
               "status": "passed"
             },
             "line": 9,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1576300822,
+              "duration": 1609192030,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7657493114,
+              "duration": 7808010594,
               "status": "passed"
             },
             "line": 8,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 29641,
+              "duration": 36571,
               "status": "passed"
             },
             "line": 9,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 56048366,
+              "duration": 52261918,
               "status": "passed"
             },
             "line": 10,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 54192098,
+              "duration": 54976257,
               "status": "passed"
             },
             "line": 11,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 1407607543,
+              "duration": 1420375450,
               "status": "passed"
             },
             "line": 12,
@@ -178,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6401015134,
+              "duration": 5731984055,
               "status": "passed"
             },
             "line": 8,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 2681111451,
+              "duration": 2155238222,
               "status": "passed"
             },
             "line": 9,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1496464737,
+              "duration": 1555691702,
               "status": "passed"
             },
             "line": 10,
@@ -221,6 +221,58 @@
                 }
               ],
               "location": "SurveyDefs.the_email_email_com_is_presented_to_me(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "When skipping a step an error is displayed.",
+        "description": "",
+        "id": "the-8gb-ipod-survey-works-fine;when-skipping-a-step-an-error-is-displayed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6544495965,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am in the home page",
+            "match": {
+              "location": "SurveyDefs.i_am_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1154285065,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I skip a step in the middle",
+            "match": {
+              "location": "SurveyDefs.i_skip_a_step_in_the_middle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1454441166,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a Request Out of Order appears",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Request Out of Order",
+                  "offset": 2
+                }
+              ],
+              "location": "SurveyDefs.a_Request_Out_of_Order_appears(String)"
             },
             "keyword": "Then "
           }
@@ -246,7 +298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7332812485,
+              "duration": 7915690702,
               "status": "passed"
             },
             "line": 8,
@@ -258,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 680077839,
+              "duration": 644180492,
               "status": "passed"
             },
             "line": 9,
@@ -270,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 340647538,
+              "duration": 382451683,
               "status": "passed"
             },
             "line": 10,
@@ -296,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 1814534095,
+              "duration": 1795617636,
               "status": "passed"
             },
             "line": 11,
@@ -342,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7158485729,
+              "duration": 6104311723,
               "status": "passed"
             },
             "line": 4,
@@ -360,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 1436874370,
+              "duration": 1388017793,
               "status": "passed"
             },
             "line": 5,
