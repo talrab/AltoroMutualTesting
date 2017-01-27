@@ -33,7 +33,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_am_signed_in()"
 });
 formatter.result({
-  "duration": 7415262436,
+  "duration": 8625800665,
   "status": "passed"
 });
 formatter.match({
@@ -46,7 +46,7 @@ formatter.match({
   "location": "AccountHistoryDefs.i_choose_account(String)"
 });
 formatter.result({
-  "duration": 938488308,
+  "duration": 984028857,
   "status": "passed"
 });
 formatter.match({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "AccountHistoryDefs.the_account_history_page_header_should_display(String)"
 });
 formatter.result({
-  "duration": 1703052526,
+  "duration": 1576300822,
   "status": "passed"
 });
 formatter.uri("AdminUserOptions.feature");
@@ -107,14 +107,14 @@ formatter.match({
   "location": "AdminUserOptionsDefs.i_am_signed_in_as_an_admin()"
 });
 formatter.result({
-  "duration": 6627688884,
+  "duration": 7657493114,
   "status": "passed"
 });
 formatter.match({
   "location": "AdminUserOptionsDefs.i_look_at_my_menu_options()"
 });
 formatter.result({
-  "duration": 33107,
+  "duration": 29641,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.the_ADMINISTRATION_menu_title_exists(String)"
 });
 formatter.result({
-  "duration": 52968316,
+  "duration": 56048366,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.view_Application_Values_link_exists(String)"
 });
 formatter.result({
-  "duration": 68170313,
+  "duration": 54192098,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "AdminUserOptionsDefs.edit_Users_link_exists(String)"
 });
 formatter.result({
-  "duration": 1547628369,
+  "duration": 1407607543,
   "status": "passed"
 });
 formatter.uri("Survey.feature");
@@ -191,7 +191,7 @@ formatter.match({
   "location": "SurveyDefs.i_am_in_the_home_page()"
 });
 formatter.result({
-  "duration": 6695762573,
+  "duration": 6401015134,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "SurveyDefs.i_go_threw_the_survey_all_to_the_end_and_enter_my_email_email_com_and_submit(String)"
 });
 formatter.result({
-  "duration": 14390123513,
+  "duration": 2681111451,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "SurveyDefs.the_email_email_com_is_presented_to_me(String)"
 });
 formatter.result({
-  "duration": 1436300399,
+  "duration": 1496464737,
   "status": "passed"
 });
 formatter.uri("TransferFunds.feature");
@@ -238,7 +238,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 8,
-  "name": "I am signed in1",
+  "name": "I am signed in",
   "keyword": "Given "
 });
 formatter.step({
@@ -257,17 +257,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TransferFundsDefs.i_am_signed_in1()"
+  "location": "AccountHistoryDefs.i_am_signed_in()"
 });
 formatter.result({
-  "duration": 7257529300,
+  "duration": 7332812485,
   "status": "passed"
 });
 formatter.match({
   "location": "TransferFundsDefs.i_go_to_the_Transfer_Funds_link()"
 });
 formatter.result({
-  "duration": 589345128,
+  "duration": 680077839,
   "status": "passed"
 });
 formatter.match({
@@ -288,7 +288,7 @@ formatter.match({
   "location": "TransferFundsDefs.i_choose_to_transfer_$_from_the_account_to_the(String,String,String)"
 });
 formatter.result({
-  "duration": 359181733,
+  "duration": 340647538,
   "status": "passed"
 });
 formatter.match({
@@ -309,22 +309,22 @@ formatter.match({
   "location": "TransferFundsDefs.i_get_a_message_saying_$_was_successfully_transferred_from_Account_into_Account_at_the_current_date(String,String,String)"
 });
 formatter.result({
-  "duration": 1722649590,
+  "duration": 1814534095,
   "status": "passed"
 });
 formatter.uri("aatest.feature");
 formatter.feature({
   "line": 1,
-  "name": "Sharing data",
+  "name": "aatest",
   "description": "",
-  "id": "sharing-data",
+  "id": "aatest",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Sharing Data Scenario 1",
+  "name": "aatest  Scenario 1",
   "description": "",
-  "id": "sharing-data;sharing-data-scenario-1",
+  "id": "aatest;aatest--scenario-1",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -338,12 +338,30 @@ formatter.step({
   "name": "I verify that title of the web page contains \"free tutorial\"",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://www.softpost.org",
+      "offset": 18
+    }
+  ],
+  "location": "AaTestDefs.i_am_on_the_page(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7158485729,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "free tutorial",
+      "offset": 46
+    }
+  ],
+  "location": "AaTestDefs.i_verify_that_title_of_the_web_page_contains(String)"
+});
+formatter.result({
+  "duration": 1436874370,
+  "status": "passed"
 });
 });

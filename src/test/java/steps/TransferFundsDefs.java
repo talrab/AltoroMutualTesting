@@ -19,25 +19,26 @@ import static org.junit.Assert.assertEquals;
  * Created by tal on 22/01/2017.
  */
 public class TransferFundsDefs {
-    private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
-    private WebDriver driver = driverSettings.getDriver();
+    //private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
+    //private WebDriver driver = driverSettings.getDriver();
+    private WebDriver driver = BrowserDriver.getCurrentDriver();
 
-    @Given("^I am signed in1$")
-    public void i_am_signed_in1() throws Throwable {
-        driver.get("http://demo.testfire.net");
-        DemoTestfireNet.signIn(driver).click(); //clicks on the login link
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.titleIs("Altoro Mutual: Online Banking Login")); // wait until the page loads
-
-        LoginPage.setUserName(driver,"jsmith");
-        LoginPage.setPassword(driver,"Demo1234");
-        LoginPage.loginButton(driver).click();
-
-        //wait.until(ExpectedConditions.titleIs("Altoro Mutual: Online Banking Home"));
-        By byXpath = By.xpath("/html/body/div[2]/table/tbody/tr[2]/td[2]/div/h1");
-        wait.until(ExpectedConditions.presenceOfElementLocated(byXpath));
-    }
+//    @Given("^I am signed in1$")
+//    public void i_am_signed_in1() throws Throwable {
+//        driver.get("http://demo.testfire.net");
+//        DemoTestfireNet.signIn(driver).click(); //clicks on the login link
+//
+//        WebDriverWait wait = new WebDriverWait(driver, 10);
+//        wait.until(ExpectedConditions.titleIs("Altoro Mutual: Online Banking Login")); // wait until the page loads
+//
+//        LoginPage.setUserName(driver,"jsmith");
+//        LoginPage.setPassword(driver,"Demo1234");
+//        LoginPage.loginButton(driver).click();
+//
+//        //wait.until(ExpectedConditions.titleIs("Altoro Mutual: Online Banking Home"));
+//        By byXpath = By.xpath("/html/body/div[2]/table/tbody/tr[2]/td[2]/div/h1");
+//        wait.until(ExpectedConditions.presenceOfElementLocated(byXpath));
+//    }
 
     @Given("^I go to the Transfer Funds link$")
     public void i_go_to_the_Transfer_Funds_link() throws Throwable {
@@ -63,7 +64,8 @@ public class TransferFundsDefs {
         String receivedMessageNoDateNoHour = receivedMessage.substring(0,receivedMessage.indexOf("at")).trim();
 
         assertEquals(expectedResultNoDateNoHour, receivedMessageNoDateNoHour);
-        driver.quit();
+        //driver.quit();
+        BrowserDriver.close();
     }
 
 

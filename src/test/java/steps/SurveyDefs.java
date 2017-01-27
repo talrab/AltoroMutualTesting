@@ -15,8 +15,9 @@ import static org.junit.Assert.assertEquals;
  * Created by tal on 22/01/2017.
  */
 public class SurveyDefs {
-    private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
-    private WebDriver driver = driverSettings.getDriver();
+    //private DriverSettings driverSettings = new DriverSettings(DriverType.CHROME);
+    //private WebDriver driver = driverSettings.getDriver();
+    private WebDriver driver = BrowserDriver.getCurrentDriver();
 
 
 
@@ -43,7 +44,8 @@ public class SurveyDefs {
     @Then("^the (email@email\\.com) is presented to me$")
     public void the_email_email_com_is_presented_to_me(String arg1) throws Throwable {
             assertEquals(SurveyCompleteThanks.reflectedEmail(driver).getText(),"email@email.com");
-            driver.quit();
+            //driver.quit();
+        BrowserDriver.close();
 
     }
 
