@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd6456c-3c16-4c85-a7a9-9ea2d4a195f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/BrowserDriver.java" afterPath="$PROJECT_DIR$/src/test/java/steps/BrowserDriver.java" />
-    </list>
+    <list default="true" id="ccd6456c-3c16-4c85-a7a9-9ea2d4a195f2" name="Default" comment="" />
     <ignored path="Proj2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
